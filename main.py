@@ -29,4 +29,4 @@ def bruteforce_rtsp(ip, password_file):
                 if authenticate_rtsp(ip, password, page):
                     return
 
-bruteforce_rtsp(sys.argv[1],"passwords.txt")
+bruteforce_rtsp(sys.argv[1],sys.argv[2])
